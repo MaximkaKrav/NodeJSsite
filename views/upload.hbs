@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.17.6/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.17.6/dist/js/uikit-icons.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Файловое хранилище - {{title}}</title>
+</head>
+<body>
+    <div>
+        {{> menu}}
+    </div>
+
+    <div class="uk-grid">
+        <div class="uk-card uk-card-default uk-card-body">
+          <h4>Helloooo</h4>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="filedate">
+    <button type="submit">
+        {{buttonName}}
+    </button>
+    </form>  
+        </div>   
+        
+    </div>
+    
+</body>
+</html>
